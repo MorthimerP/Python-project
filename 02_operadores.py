@@ -2,9 +2,9 @@
 print(10 + 2)
 print(10 - 2)
 print(10 * 2)
-print(10 / 2)
+print(10 / 2)   #Devuelve un float
 print(10 % 3)
-print(10 // 3)
+print(10 // 3)  #Devuelve un int redondeado hacia abajo 
 print(2 ** 3)
 print(2 + 4 ** 3 / 2 // 3 -1)
 

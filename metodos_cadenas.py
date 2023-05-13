@@ -1,6 +1,7 @@
 cadena = "jfkdlafjk"
 cadena1 = "hola soy Carlos"
 cadena2 = "Bienvenido"
+cadnum = 123456789
 
 #! funciones -> funcion()
 
@@ -35,4 +36,28 @@ es_numerico = cadena.isnumeric()
 #! los espacios no son alfanumericos
 es_alfanumerico = cadena.isalpha()
 
-print(es_alfanumerico)
+#* count() -> cuenta las coincidencias de una cadena en otra
+#* devuelve la cantidad de veces que coincida
+contar_coincidencia = cadena1.count("a")
+
+#! len -> cuenta cuantos caracteres tiene una cadena
+#! es una funcion, solo funciona con strings
+contar_caracteres = len(cadena1)
+
+#& startswith -> verifica si una cadena empieza con otra cadena dada 
+#& devuelve valor booleano
+empieza_con = cadena1.startswith("ho")
+
+#% endswith -> verifica si una cadena termina con otra cadena dada 
+#% devuelve valor booleano
+termina_con = cadena1.endswith("os")
+
+#^ replace -> reemplaza un pedazo de cadena por otra dada
+#^ en caso de no encontrar la coincidencia deja la anterior
+cadena_nueva = cadena1.replace("la", "lu")
+
+#+ split -> separa cadenas con la cadena que pasemos
+#+ devuelve una lista 
+cadena_separada = cadena1.split(" ")
+
+print(cadena_separada)

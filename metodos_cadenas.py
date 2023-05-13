@@ -1,3 +1,4 @@
+cadena = "jfkdlafjk"
 cadena1 = "hola soy Carlos"
 cadena2 = "Bienvenido"
 
@@ -23,8 +24,15 @@ busqueda_find = cadena1.find("c")
 
 #^ index -> buscar una cadena en otra cadena
 #^ cuando no encuentra coincidencia lanza una excepcion
-busqueda_index = cadena1.index("9")
+busqueda_index = cadena.index("j")
 
-#
+#% isnumeric -> consulta si una cadena es numerico
+#% devuelve un valor booleano
+es_numerico = cadena.isnumeric()
 
-print(busqueda_index)
+#! isalpha -> consulta si una cadena es alfanumerica
+#! devuelve valor booleano
+#! los espacios no son alfanumericos
+es_alfanumerico = cadena.isalpha()
+
+print(es_alfanumerico)

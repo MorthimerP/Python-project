@@ -1,0 +1,3 @@
+Este es un archivo txt de prueba para el proyecto python
+
+Este archivo va a ser leido por un programa python llamado archivo.py 

@@ -1,0 +1,17 @@
+Los datos son: 
+
+Nombre: Carlos 
+Apellido: Perez 
+ -------- 
+Nombre: Luis 
+Apellido: Bernal 
+ -------- 
+Nombre: Ailton 
+Apellido: Diaz 
+ -------- 
+Nombre: Marifer 
+Apellido: Pada 
+ -------- 
+Nombre: Jimena 
+Apellido: Salas 
+ -------- 
